@@ -6,6 +6,10 @@
 .project
 .metadata
 bin/
+*.exe
+*.res
+*.identcache
+*.stat
 tmp/
 *.tmp
 *.bak
@@ -17,6 +21,7 @@ local.properties
 .loadpath
 
 dcu/
+*.dcu
 *.dproj
 *.local
 *.skincfg

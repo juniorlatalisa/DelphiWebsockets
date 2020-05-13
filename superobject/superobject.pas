@@ -6297,6 +6297,7 @@ function TSuperRttiContext.FromJson(TypeInfo: PTypeInfo; const obj: ISuperObject
   var
     o: ISuperObject;
   begin
+  {
     if CompareMem(@GetTypeData(TypeInfo).Guid, @soguid, SizeOf(TGUID)) then
     begin
       if obj <> nil then
@@ -6308,7 +6309,9 @@ function TSuperRttiContext.FromJson(TypeInfo: PTypeInfo; const obj: ISuperObject
       Result := True;
     end else
       Result := False;
+      }
   end;
+
 var
   Serial: TSerialFromJson;
 begin
