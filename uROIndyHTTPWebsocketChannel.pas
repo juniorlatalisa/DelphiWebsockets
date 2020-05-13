@@ -4,7 +4,8 @@ interface
 
 uses
   Classes, SyncObjs,
-  uROIndyHTTPChannel, uROClientIntf,
+  //uROIndyHTTPChannel,
+  //uROClientIntf,
   IdHTTPWebsocketClient, IdHTTP, IdWinsock2;
 
 const

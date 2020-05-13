@@ -6311,7 +6311,6 @@ function TSuperRttiContext.FromJson(TypeInfo: PTypeInfo; const obj: ISuperObject
       Result := False;
       }
   end;
-
 var
   Serial: TSerialFromJson;
 begin
